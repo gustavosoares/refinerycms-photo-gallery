@@ -1,0 +1,114 @@
+# encoding: UTF-8
+# pt-BR translations for Ruby on Rails
+pt-BR:
+  chosen:
+    no_results: "Nenhum resultado encontrado"
+  refinery:
+    admin:
+      pages:
+        tabs:
+          form:
+            join_page_with_album: "Join page with album:"
+            choose_album: "Clique para escolher o album de fotos"
+            flash:
+              connection_destroyed: "Conexão entre o album e página foi removida com sucesso."
+    plugins:
+      refinerycms_photo_gallery:
+        title: Galeria de fotos
+        description: Provides advanced photo gallery
+        tab_name: Galeria de fotos
+    photo_gallery:
+      admin:
+        submenu:
+          collections:
+            title: Coleções
+            manage: Gerenciar
+            new: Criar nova coleção
+          albums:
+            title: Albuns
+            manage: Gerenciar
+            new: Criar novo album
+        collections:
+          collection:
+            view_live_html: Visualizar esta coleção <br/><em>(abre uma nova janela)</em>
+            delete: Remover esta coleção definitivamente.
+            edit: Editar esta coleção
+          index:
+            no_items_yet: Aindã não há nenhuma coleção. Clique "%{create}" para adicionar a sua primeira coleção.
+          new:
+            title: Criar nova coleção
+          edit:
+            title: Editar coleção
+        albums:
+          album:
+            view_live_html: View this album live <br/><em>(opens in a new window)</em>
+            delete: Remover este album definitivamente.
+            edit: Editar estar album
+            upload_photos: Enviar novos fotos para o album.
+            edit_photos: Editar fotos no album.
+          index:
+            no_items_yet: Ainda não existe nenhum album. Clique "%{create}" para criar o seu primeiro
+              album.
+          new:
+            title: Criar novo album
+          edit:
+            title: Editar album
+          form:
+            album_belongs_to_collection: Album pertence as coleções
+            more_options: Mais opções
+            more_options_tooltip: Enable edit more fields like adress, latitude, longitude,
+              note
+            choose_collection: Escolha a(s) coleção(ões)
+            path_prefix: Path prefix
+            number_of_photos: Contains %{number} photos
+        photos:
+          updated: Fotos atualizadas
+          title: Fotos
+          manage: Gerenciar
+          new: Enviar novas fotos
+          edit_multiple:
+            no_photos_yet: Ainda não há nenhuma foto no album. Clique "%{create} para adicionar
+              sua primeira foto ao album.'
+          photo:
+            delete: Remover esta foto definitivamente.
+            deleted: Foto "%{title}" removida
+          form_fields:
+            use_decimal_format: Use decimal format
+      photo_pages:
+        show:
+          other: Other Photo Pages
+      albums:
+        show:
+          no_photos: Ainda não há nenhuma foto neste album
+        photos:
+          image: Imagem
+      collections:
+        show:
+          no_albums: There are no albums in this collection yet
+        index:
+          no_collections: There are no collections yet
+  activerecord:
+    attributes:
+      refinery/photo_gallery/photo_page:
+        page_id: Page
+      refinery/photo_gallery/collection:
+        title: Title
+        description: Description
+      refinery/photo_gallery/album:
+        title: Title
+        description: Description
+        longitude: Longitude
+        latitude: Latitude
+        path: Path
+        address: Adress
+        note: Note
+        tags: Tags
+      refinery/photo_gallery/photo:
+        title: Title
+        description: Description
+        longitude: Longitude
+        latitude: Latitude
+        path: Path
+        file: File
+    models:
+      refinery/photo_gallery/collection: Album
