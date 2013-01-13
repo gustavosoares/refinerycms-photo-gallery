@@ -14,9 +14,9 @@ pt-BR:
               connection_destroyed: "Conexão entre o album e página foi removida com sucesso."
     plugins:
       refinerycms_photo_gallery:
-        title: Galeria de fotos
+        title: Fotos
         description: Provides advanced photo gallery
-        tab_name: Galeria de fotos
+        tab_name: Fotos
     photo_gallery:
       admin:
         submenu:
