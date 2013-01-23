@@ -8,14 +8,14 @@ pt-BR:
       pages:
         tabs:
           form:
-            join_page_with_album: "Join page with album:"
+            join_page_with_album: "Juntar página com album:"
             choose_album: "Clique para escolher o album de fotos"
             flash:
               connection_destroyed: "Conexão entre o album e página foi removida com sucesso."
     plugins:
       refinerycms_photo_gallery:
         title: Fotos
-        description: Provides advanced photo gallery
+        description: Provê galeria de fotos avançada
         tab_name: Fotos
     photo_gallery:
       admin:
@@ -41,7 +41,7 @@ pt-BR:
             title: Editar coleção
         albums:
           album:
-            view_live_html: View this album live <br/><em>(opens in a new window)</em>
+            view_live_html: Visualizar este album <br/><em>(abre uma nova janela)</em>
             delete: Remover este album definitivamente.
             edit: Editar estar album
             upload_photos: Enviar novos fotos para o album.
@@ -60,7 +60,7 @@ pt-BR:
               note
             choose_collection: Escolha a(s) coleção(ões)
             path_prefix: Path prefix
-            number_of_photos: Contains %{number} photos
+            number_of_photos: Contem %{number} fotos
         photos:
           updated: Fotos atualizadas
           title: Fotos
@@ -84,9 +84,9 @@ pt-BR:
           image: Imagem
       collections:
         show:
-          no_albums: There are no albums in this collection yet
+          no_albums: Ainda não há nenhum album nesta coleção
         index:
-          no_collections: There are no collections yet
+          no_collections: Ainda não existe nenhuma coleção
   activerecord:
     attributes:
       refinery/photo_gallery/photo_page:
@@ -95,20 +95,20 @@ pt-BR:
         title: Title
         description: Description
       refinery/photo_gallery/album:
-        title: Title
-        description: Description
+        title: Título
+        description: Descrição
         longitude: Longitude
         latitude: Latitude
         path: Path
-        address: Adress
-        note: Note
+        address: Endereço
+        note: Nota
         tags: Tags
       refinery/photo_gallery/photo:
-        title: Title
-        description: Description
+        title: Título
+        description: Descrição
         longitude: Longitude
         latitude: Latitude
         path: Path
-        file: File
+        file: Arquivo
     models:
       refinery/photo_gallery/collection: Album
