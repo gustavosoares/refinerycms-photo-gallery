@@ -1,11 +1,7 @@
 <% if @page.album.present? %>
 
     <% cache "refinery/photo_gallery/albums/#{@page.album.id}" do %>
-        <h2 >
-          <%= @page.album.title %>
-        </h2>
-
-        <div>
+        <div class="album-description">
           <%= raw @page.album.description %>
         </div>
     <% end %>
